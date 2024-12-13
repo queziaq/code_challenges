@@ -6,7 +6,10 @@ import java.util.List;
 
 import static org.challenge.algorithms.ArraySum.simpleArraySum;
 import static org.challenge.algorithms.MatrixDiagonalsSum.diagonalDifference;
+import static org.challenge.algorithms.MaxSubArraySum.maxSubArraySum;
+import static org.challenge.algorithms.MinMaxSum.miniMaxSum;
 import static org.challenge.algorithms.StairCaseSequence.staircase;
+import static org.challenge.algorithms.TimeConversion.timeConversion;
 import static org.challenge.algorithms.TwoArraysComparison.compareTriplets;
 
 public class AlgorithmsPrincipal {
@@ -25,7 +28,12 @@ public class AlgorithmsPrincipal {
         // Calculate matrix diagonals difference (left & right)
         System.out.println(diagonalDifference(matrix));
 
+        miniMaxSum(List.of(1,2,8,39,29,28));
+        System.out.println(timeConversion("07:05:45PM"));
+
         // print stair case # according to n size
         staircase(10);
+
+        maxSubArraySum(List.of(2, 3, -8, 7, -1, 2, 3));
     }
 }
