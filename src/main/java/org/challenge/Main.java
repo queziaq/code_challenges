@@ -1,10 +1,9 @@
 package org.challenge;
 
-import static org.challenge.algorithms.AlgorithmsPrincipal.execute;
+import org.challenge.onemonthprep.OneMonthPreparationPrincipal;
 
 public class Main {
     public static void main(String[] args) {
-        // 1. Algorithms execution
-        execute();
+        OneMonthPreparationPrincipal.execute();
     }
 }
