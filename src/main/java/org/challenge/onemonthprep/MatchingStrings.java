@@ -28,7 +28,7 @@ public class MatchingStrings {
 
         queries.forEach(e -> {
             result.add(strings.stream().filter(s -> s.equals(e))
-                    .collect(Collectors.toList()).size());
+                    .toList().size());
         });
 
         return result;

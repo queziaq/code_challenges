@@ -10,6 +10,7 @@ import static org.challenge.onemonthprep.MatchingStrings.matchingStrings;
 import static org.challenge.onemonthprep.Median.findMedian;
 import static org.challenge.onemonthprep.MiniMaxSum.miniMaxSum;
 import static org.challenge.onemonthprep.NumberOfCombinations.birthday;
+import static org.challenge.onemonthprep.Pangram.pangrams;
 import static org.challenge.onemonthprep.PlusMinus.plusMinus;
 import static org.challenge.onemonthprep.StringXOR.stringsXOR;
 
@@ -25,6 +26,7 @@ public class OneMonthPreparationPrincipal {
         System.out.println(stringsXOR("10101", "00101"));
         System.out.println(flippingBits(0));
         System.out.println(findMedian(List.of(5,7,9,4,56,7,9,0,5)));
+        pangrams("We promptly judged antique ivory buckles for the next prize");
     }
 
 }
